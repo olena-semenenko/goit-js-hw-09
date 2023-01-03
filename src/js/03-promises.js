@@ -1,7 +1,7 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 const refs = {
   form: document.querySelector('.form'),
-  createBtn: document.querySelector('[type="submit"]'),
+  createBtn: document.querySelector('button[type="submit"]'),
 };
 const options = {
   width: '500px',
